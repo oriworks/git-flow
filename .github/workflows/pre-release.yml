@@ -1,0 +1,27 @@
+name: PreRelease
+
+on: workflow_dispatch
+
+jobs:
+  pre-release:
+    name: PreRelease
+    if: ${{ github.ref == 'refs/heads/develop'}}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set Git config
+        run: |
+            git config --local user.email "actions@github.com"
+            git config --local user.name "Github Actions"
+      
+      - name: Create release branch
+        run: git branch release
+
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+      - run: npm ci
+      - run: npx semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
