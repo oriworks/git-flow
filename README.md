@@ -1,4 +1,4 @@
-# Git flow tests
+# Git flow
 
 ## Branches: master, develop, feature/*, hotfix/*, bugfix/*
 
