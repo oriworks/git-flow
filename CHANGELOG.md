@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/oriworks/git-flow/compare/v1.2.3...v1.2.4) (2020-12-31)
+
+
+### Bug Fixes
+
+* change readme ([5acd158](https://github.com/oriworks/git-flow/commit/5acd1580e1c9fc9bc019bc93e30a4082186b7e52))
+
 ## [1.2.3](https://github.com/oriworks/git-flow/compare/v1.2.2...v1.2.3) (2020-12-31)
 
 
