@@ -13,12 +13,6 @@ jobs:
         run: |
             git config --local user.email "actions@github.com"
             git config --local user.name "Github Actions"
-      
-      - name: Create release branch
-        run: git checkout -b release
-      
-      - name: List branch
-        run: git branch
 
       - uses: actions/setup-node@v1
         with:
@@ -27,3 +21,8 @@ jobs:
       - run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Reset previous commit
+        run: |
+            git reset --hard HEAD~1
+            git push -f
