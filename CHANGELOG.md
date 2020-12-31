@@ -1,3 +1,10 @@
+## [1.2.6](https://github.com/oriworks/git-flow/compare/v1.2.5...v1.2.6) (2020-12-31)
+
+
+### Bug Fixes
+
+* prelive branch ([b109326](https://github.com/oriworks/git-flow/commit/b1093269553312b487d1c9a9ce25a6e19596e4a8))
+
 ## [1.2.5](https://github.com/oriworks/git-flow/compare/v1.2.4...v1.2.5) (2020-12-31)
 
 
