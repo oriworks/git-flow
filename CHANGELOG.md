@@ -1,3 +1,10 @@
+# [1.0.0-develop.3](https://github.com/oriworks/git-flow/compare/v1.0.0-develop.2...v1.0.0-develop.3) (2020-12-31)
+
+
+### Features
+
+* create workflow to promote develop branch to master ([2194873](https://github.com/oriworks/git-flow/commit/2194873ee2cfb5f352c6639366fd4056eac85fa4))
+
 # [1.0.0-develop.2](https://github.com/oriworks/git-flow/compare/v1.0.0-develop.1...v1.0.0-develop.2) (2020-12-31)
 
 
