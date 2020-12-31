@@ -5,7 +5,7 @@ on: workflow_dispatch
 jobs:
   promote:
     name: Promote
-    if: ${{ github.ref === 'refs/heads/develop'}}
+    if: ${{ github.ref == 'refs/heads/develop'}}
     runs-on: ubuntu-latest
 
     steps:
