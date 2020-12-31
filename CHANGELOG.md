@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/oriworks/git-flow/compare/v1.1.0...v1.2.0) (2020-12-31)
+
+
+### Features
+
+* add other branches ([e76181d](https://github.com/oriworks/git-flow/commit/e76181dc3b4f8d1ab2f30fb97a6bc6fa9e769f4f))
+
 # [1.2.0-develop.1](https://github.com/oriworks/git-flow/compare/v1.1.0...v1.2.0-develop.1) (2020-12-31)
 
 
