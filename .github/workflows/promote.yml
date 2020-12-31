@@ -20,5 +20,5 @@ jobs:
           git fetch --unshallow
           git checkout master
           git pull
-          git merge --no-ff master -m "chore(merge): Merge branch 'develop' into 'master'"
+          git merge --no-ff develop -m "chore(merge): Merge branch 'develop' into 'master'"
           git push
