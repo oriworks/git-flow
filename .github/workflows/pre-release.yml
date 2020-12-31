@@ -15,8 +15,8 @@ jobs:
             git config --local user.name "Github Actions"
       
       - name: Create release branch
-        run: git branch release
-        
+        run: git checkout -b release
+
       - uses: actions/setup-node@v1
         with:
           node-version: "12.x"
