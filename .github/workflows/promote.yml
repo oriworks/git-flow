@@ -9,6 +9,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Log branch name
+    - uses: actions/checkout@v2
+    - name: Set Git config
       run: |
-        echo "Branch name: ${{ github.ref }}"
+          git config --local user.email "actions@github.com"
+          git config --local user.name "Github Actions"
+          
+    - name: Merge master back to dev
+      run: |
+          git fetch --unshallow
+          git checkout master
+          git pull
+          git merge --no-ff master -m "chore(merge): Merge branch 'develop' into 'master'"
+          git push
