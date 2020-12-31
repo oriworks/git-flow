@@ -10,4 +10,4 @@ jobs:
 
     steps:
     - name: Log branch name
-      run: "Branch name: ${{ github.ref }}"
+      run: echo "Branch name: ${{ github.ref }}"
