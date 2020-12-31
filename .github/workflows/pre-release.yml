@@ -23,6 +23,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Reset previous commit
-        run: |
-            git reset --hard HEAD~1
-            git push -f
+        run: git push -f
