@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - master
-      - develop
+      - release
 
 jobs:
   release:
@@ -19,3 +19,16 @@ jobs:
       - run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set Git config
+        run: |
+            git config --local user.email "actions@github.com"
+            git config --local user.name "Github Actions"
+          
+      - name: Merge master to develop
+        run: |
+            git fetch --unshallow
+            git checkout develop
+            git pull
+            git merge --no-ff master -m "chore(merge): Merge branch 'master' into 'develop'"
+            git push

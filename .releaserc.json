@@ -2,7 +2,7 @@
     "branches": [
         "master",
         {
-            "name": "develop",
+            "name": "release",
             "prerelease": true
         }
     ],
