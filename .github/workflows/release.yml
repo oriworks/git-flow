@@ -29,6 +29,7 @@ jobs:
       - name: Merge master to develop
         run: |
             git fetch --unshallow
+            git pull
             git checkout develop
             git pull
             git merge --no-ff master -m "chore(merge): Merge branch 'master' into 'develop'"
