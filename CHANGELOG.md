@@ -1,3 +1,17 @@
+# [1.3.0-develop.1](https://github.com/oriworks/git-flow/compare/v1.2.6...v1.3.0-develop.1) (2020-12-31)
+
+
+### Features
+
+* add pre-release workflow ([2c09db5](https://github.com/oriworks/git-flow/commit/2c09db5df71dc553d3b83777f4e0dbefb81afcaa))
+* add pre-release workflow ([c30a9db](https://github.com/oriworks/git-flow/commit/c30a9dbb7a6564dc68324ef9d441158ad69cbb1b))
+* add pre-release workflow ([58077cf](https://github.com/oriworks/git-flow/commit/58077cf138f9fc309cf881eec4e8c9d70edfc7bb))
+* add pre-release workflow ([1d7a702](https://github.com/oriworks/git-flow/commit/1d7a70227058b1c438bb979c937d26edb546eec8))
+* add pre-release workflow ([c41bc31](https://github.com/oriworks/git-flow/commit/c41bc31865176127789bb69fe11698919131a221))
+* add pre-release workflow ([1034a6b](https://github.com/oriworks/git-flow/commit/1034a6bbb8716655747fd32d4ef4fab8898ea4e7))
+* add pre-release workflow ([c932266](https://github.com/oriworks/git-flow/commit/c9322663ba48a18731c30a0b350ed8bb91542242))
+* remove test ([3d11dba](https://github.com/oriworks/git-flow/commit/3d11dba9a7411775c88b69bb9718be084c3395b5))
+
 ## [1.2.6](https://github.com/oriworks/git-flow/compare/v1.2.5...v1.2.6) (2020-12-31)
 
 
