@@ -16,6 +16,9 @@ jobs:
       
       - name: Create release branch
         run: git checkout -b release
+      
+      - name: List branch
+        run: git branch
 
       - uses: actions/setup-node@v1
         with:
