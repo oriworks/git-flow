@@ -1,3 +1,10 @@
+# [1.3.0-develop.2](https://github.com/oriworks/git-flow/compare/v1.3.0-develop.1...v1.3.0-develop.2) (2020-12-31)
+
+
+### Features
+
+* add pre-release workflow 1 ([bf4874b](https://github.com/oriworks/git-flow/commit/bf4874b971f0fffce338c873ae12d4ddc05e4ab9))
+
 # [1.3.0-develop.1](https://github.com/oriworks/git-flow/compare/v1.2.6...v1.3.0-develop.1) (2020-12-31)
 
 
