@@ -1,3 +1,10 @@
+## [1.2.5](https://github.com/oriworks/git-flow/compare/v1.2.4...v1.2.5) (2020-12-31)
+
+
+### Bug Fixes
+
+* workflows ([eb8605b](https://github.com/oriworks/git-flow/commit/eb8605b665b3faf403770842f06716f046866365))
+
 ## [1.2.4](https://github.com/oriworks/git-flow/compare/v1.2.3...v1.2.4) (2020-12-31)
 
 
