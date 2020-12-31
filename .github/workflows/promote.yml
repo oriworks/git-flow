@@ -1,0 +1,13 @@
+name: Promote
+
+on: workflow_dispatch
+
+jobs:
+  promote:
+    name: Promote
+    if: ${{ github.ref }}
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Log branch name
+      run: "Branch name: ${{ github.ref }}"
