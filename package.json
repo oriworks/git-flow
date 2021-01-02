@@ -1,6 +1,6 @@
 {
   "name": "git-flow",
-  "version": "1.3.0-develop.2",
+  "version": "1.3.0-release.1",
   "main": "index.js",
   "repository": "git@github.com:oriworks/git-flow.git",
   "author": "Joel Oliveira<joeloliveira@oriworks.com>",
